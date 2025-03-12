@@ -1,16 +1,33 @@
-# flutter_application_2
+# Flutter E-Commerce App (Assignment 2)
 
-A new Flutter project.
+This is an assignment project that fetches product data from [Fake Store API](https://fakestoreapi.com/products) and displays it in a UI closely following the provided design. The app includes features like category filtering, search functionality, and a product detail screen with animations.
 
-## Getting Started
+## Objective
+The goal of this project is to:
+- Fetch data from the given API.
+- Display products in a UI that closely matches the provided assignment UI.
+- Implement animations and a loading screen for a better user experience.
 
-This project is a starting point for a Flutter application.
+## Grading Rubric
+- **Successful data retrieval** – 2 points
+- **Loose coupling between UI & data fetching** – 2 points
+- **Closely replicated UI** – 6 points
+- **Extra marks for animations & loading screen replication**
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- Fetches and displays product data from Fake Store API
+- Category-based filtering
+- Search functionality
+- Smooth navigation to product details with animation
+- Shimmer loading effect for better UX
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
+- **Flutter** (UI framework)
+- **Provider** (State Management)
+- **HTTP** (API requests)
+- **Shimmer** (Loading effect)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/flutter-ecommerce-assignment.git
